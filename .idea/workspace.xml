@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f7df639-d62f-47fb-ac2d-e602a3ac7f36" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/rdd/WordCount.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/rdd/WordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/in/PPINV_E_clientes_20180910_0049_s.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/rdd/LeerCSV.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,25 +23,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WordCount.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WordCount.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/rdd/WordCount.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="-88">
+              <caret line="11" column="18" selection-end-line="39" />
+              <folding>
+                <element signature="e#31#60#0" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeerCSV.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/rdd/LeerCSV.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PPINV_E_clientes_20180910_0049_s.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/in/PPINV_E_clientes_20180910_0049_s.txt">
+          <provider selected="true" editor-type-id="LargeFileEditor" />
         </entry>
       </file>
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="282">
-              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+              <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -387,6 +411,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/rdd/WordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/rdd/package.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sparkTutorial/rdd/LeerCSV.scala" />
       </list>
     </option>
   </component>
@@ -408,6 +434,11 @@
             <path>
               <item name="scala-spark-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="scala-spark-tutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala-spark-tutorial" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala-spark-tutorial" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="in" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scala-spark-tutorial" type="b2602c69:ProjectViewProjectNode" />
@@ -457,6 +488,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rdd" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\i.valderrey\Documents\Projects\git-projects\scala-spark-tutorial\in" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -469,7 +508,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LeerCSV">
+    <configuration name="LeerCSV" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="rdd.LeerCSV" />
+      <module name="scala-spark-tutorial_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="WordCount" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.sparkTutorial.rdd.WordCount" />
       <module name="scala-spark-tutorial_main" />
@@ -522,8 +572,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.WordCount" />
+      <item itemvalue="Application.LeerCSV" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeerCSV" />
         <item itemvalue="Application.WordCount" />
       </list>
     </recent_temporary>
@@ -585,20 +640,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="e#31#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
-          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/rdd/LeerCSV">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/rdd/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/rdd/WordCount.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="-88">
+          <caret line="11" column="18" selection-end-line="39" />
+          <folding>
+            <element signature="e#31#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/in/PPINV_E_clientes_20180910_0049_s.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sparkTutorial/rdd/LeerCSV.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
         </state>
       </provider>
     </entry>
