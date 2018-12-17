@@ -20,6 +20,7 @@ dependencies {
     compile group: 'org.apache.spark', name: 'spark-core_2.11', version: '2.2.0'
     compile group: 'org.apache.spark', name: 'spark-sql_2.11', version: '2.2.0'
     compile group: 'org.scala-lang', name: 'scala-library', version: '2.11.11'
+    compile group: 'net.liftweb', name: 'lift-json_2.12', version: '3.3.0'
 }
 
 configurations.all {
@@ -33,6 +34,7 @@ compileScala.sourceCompatibility = "1.8"
 
 
 jar {
+    enabled = true
     zip64 true
     archiveName = "StackOverFlowSurvey-spark.jar"
     from {
